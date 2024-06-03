@@ -1,0 +1,127 @@
+body{background-color: blanchedalmond;}
+h1{color: darkred; stroke: black;}
+img{width: 100%;}
+div.imgframe{border:outset 10px black;
+     width: 80%;
+    margin: auto;
+position: relative;}
+
+.imgtitle{position: absolute;
+    background-color: darkkhaki;
+top: 20%;
+bottom: auto;
+right: 30%;
+left: auto;
+padding: 10px;
+text-align: center;
+}
+div.imgframe2{border:outset 10px black;
+    width: 80%;
+   margin: auto;
+position: relative;
+z-index: 1;}
+
+.imgtitle2{position: absolute;
+   background-color:fuchsia;
+top: 20%;
+bottom: auto;
+right: 30%;
+left: auto;
+padding: 10px;
+text-align: center;
+z-index: 2;}
+
+.imgpara{position: absolute;
+top: 30%;
+left: 50%;
+color: chartreuse;
+background-color: rgb(196, 30, 30, .6);
+font-size: xx-large;
+z-index: 5;}
+.imglink{position: absolute;
+    z-index: 3;
+    bottom: 40%;
+    top: auto;
+    right: 40%;
+    left: auto;
+    background-color: cyan;
+    color: olive;
+    padding: 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: x-large;
+
+}
+.imglink:hover{background-color: black;
+box-shadow: 5px 5px 15px black;}
+
+section.CardSection{background-color: azure;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Card{width: 400px;
+height: auto;
+border-radius: 20px;
+background-color: whitesmoke;
+box-shadow: 3px 5px 5px gray;
+transition:ease-in-out 230ms;
+overflow: hidden;
+margin: auto;
+display:block;
+padding: 10px;
+margin: 10px;
+text-align: center;
+}
+.Card:hover{transform: scale(1.03);
+cursor: pointer;}
+
+img.power{width: 80%;
+text-align: start;
+position:relative;
+border-radius: 10px;
+padding-top: 10px;}
+
+a.booklink{text-decoration: none;  
+    margin: 20px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+a.booklink:hover{background-color: chocolate;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }  
+
+
+div.bookhead h1{text-align: center;}
+
+.booklink:active {
+  transform: scale(0.95);
+}
+
+.logocard{position: relative;
+}
+.logohead{top: 0%;
+position: absolute;
+text-align: center;
+right: 10%;}
