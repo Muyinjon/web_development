@@ -25,29 +25,98 @@
     <figure class="w-50 mx-auto figure-img"> <img src="../day4_navigation_form/donkey.jpg" alt="donkey" class="img-thumbnail w-100"></figure></div>
 
 
+    <!-- DROP nAVIGATION TAB-->
+    <div class="btn-group">
+      <button class="btn btn-danger" type="button"> HOME </button> 
+      <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown"> CUNY </button> 
+      <button class="btn btn-danger" type="button"> bootstrap components </button> 
+    <ul class="dropdown-menu">
+      <a class="dropdown-item" href="http://qcc.edu" target="_blank" rel="noopener noreferrer">QCC</a>
+      <a class="dropdown-item" href="http://qcc.edu" target="_blank" rel="noopener noreferrer">LGA</a>
+      <a class="dropdown-item" href="http://qcc.edu" target="_blank" rel="noopener noreferrer">QC</a>
+    </ul></div>
 
-    <div class="dropdown">
-        <button
-            class="btn btn-outline-info m-3 dropdown-toggle"
-            type="button"
-            id="triggerId"
-            data-bs-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-        >
-            Dropdown
-        </button>
-        <div class="dropdown-menu" aria-labelledby="triggerId">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item disabled" href="#">Disabled action</a>
-            <h6 class="dropdown-header">Section header</h6>
-            <a class="dropdown-item" href="#">Action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">After divider action</a>
-        </div>
+    <!--navigation tabs-->
+
+    <nav class="nav navil-pills bg-light mt-5 mb-5 nav-justified">
+      <a  class="nav-link" href="">HOME</a>
+      <a class="nav-link" href="">Service </a>
+      <a class="nav-link" href="">Misson</a>
+      <a class="nav-link" href="">Staff</a>
+      <a class="nav-link" href="">Testimonials</a>
+    </nav>
+
+    <!-- Collapsible Navigation tabs-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark nav-expand-sm p-3 fixed-top"> 
+      <!--link to logo-->
+  <a href="#" class="navbar-brand p-3"><img src="./bookicon.svg" alt="LOGO"></a>
+  
+  <h1 class="text-light">Find your way home</h1>
+<!--HOME BUTTON-->
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsemenu">
+  <span>Menu</span> 
+  <span class="navbar-toggler-icon"> </span>
+</button>  
+
+<!---- CREATE THE DROPDOWNMENU -->
+<div class="collapse navbar-collapse " id="collapsemenu">
+  <nav class="navbar-nav ms-auto" > <a href="" class="nav-item nav-link">Home</a> 
+  <a href="" class="nav-item nav-link">Services</a> 
+  <a href="" class="nav-item nav-link">Staff</a> 
+  </nav>
+</div>
+
+</nav>
+
+
+
+
+<!---CARD DESIGN-->
+<section class="container">
+  <div class="row justify-content-between" >
+        <!--Card 1 -->
+    <div class="col-xl-2 col-lg-5 col-sm-10 card bg-light">
+      <div class="card-header">
+        <p class="card-title h2"> Dr. Stanley</p> <p>Behaviorist</p> </div>
+      <div class="card-body"> <img class="card-img" src="../day3_imagine_layout/images/landscape-photography.jpg" alt="landscape-architecture"> <p class="card-text"> Weather is nice </p> </div>
+      <div class="card-footer " > <a class="card-link" href="">Read More</a>
+        <a class="card-link" href="">Contact</a>
+        <a class="card-link" href="">Feedback</a>
+       </div>
     </div>
-    
+    <!--Card 2 -->
+    <div class="col-xl-2 col-lg-5 col-sm-10 card bg-light">
+      <div class="card-header">
+        <p class="card-title h2"> Dr. Stanley</p> <p>Behaviorist</p> </div>
+      <div class="card-body"> <img class="card-img" src="../day3_imagine_layout/images/landscape-photography.jpg" alt="landscape-architecture"> <p class="card-text"> Weather is nice </p> </div>
+      <div class="card-footer " > <a class="card-link" href="">Read More</a>
+        <a class="card-link" href="">Contact</a>
+        <a class="card-link" href="">Feedback</a>
+       </div>
+    </div>
+        <!--Card 3 -->
+    <div class="col-xl-2 col-lg-5 col-sm-10 card bg-light">
+      <div class="card-header">
+        <p class="card-title h2"> Dr. Stanley</p> <p>Behaviorist</p> </div>
+      <div class="card-body"> <img class="card-img" src="../day3_imagine_layout/images/landscape-photography.jpg" alt="landscape-architecture"> <p class="card-text"> Weather is nice </p> </div>
+      <div class="card-footer " > <a class="card-link" href="">Read More</a>
+        <a class="card-link" href="">Contact</a>
+        <a class="card-link" href="">Feedback</a>
+       </div>
+    </div>
+        <!--Card 4 -->
+    <div class="col-xl-2 col-lg-5 col-sm-10 card bg-light">
+      <div class="card-header">
+        <p class="card-title h2"> Dr. Stanley</p> <p>Behaviorist</p> </div>
+      <div class="card-body"> <img class="card-img" src="../day3_imagine_layout/images/landscape-photography.jpg" alt="landscape-architecture"> <p class="card-text"> Weather is nice </p> </div>
+      <div class="card-footer " > <a class="card-link" href="">Read More</a>
+        <a class="card-link" href="">Contact</a>
+        <a class="card-link" href="">Feedback</a>
+       </div>
+    </div>
+  </div>
 
+</section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
