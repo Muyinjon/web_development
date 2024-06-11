@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <title>Machine Learning</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="../style.css">
+
+        <style>
+            body { display:block;
+                line-height: 1.6;
+                margin: 20px;
+                justify-content: space-around;
+                text-align: center;
+                justify-content: center;
+                align-content: center;
+            }
+            h2 {
+                color: #dbdbdb;
+            }
+            main img {
+                max-width: 400px;
+                height: auto;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                justify-content: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            .section {
+                margin-bottom: 40px;
+            }
+            .button {
+                display: inline-block;
+                padding: 10px 20px;
+                margin-top: 10px;
+                font-size: 16px;
+                color: #fff;
+                background-color: #007BFF;
+                border: none;
+                border-radius: 5px;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            .button:hover {
+                background-color: #0056b3;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <nav
+            class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top w-auto">    
+            <div class="container">
+                <a class="navbar-brand logotab" href="#"><img src="" alt=""></a>
+        
+                <button
+                    class="navbar-toggler d-lg-none"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId"
+                    aria-controls="collapsibleNavId"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-0 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li clhass="nav-item">
+                            <a class="nav-link" href="../Machine_Learning/Machine_learning.html">Machine Learning</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Neural_Networks/Neural_networks.html">Neural Networks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../403.html">Deep Learning</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../403.html">Natural Language Processing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../403.html">Computer Vision</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <br> 
+        </nav>
+        </header>
+
+
+
+        <main class="m-5">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dPWYUELwIdM?si=L0Tx-wnLREHEZ8qr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+            <div class="section">
+                <h2>Neural Networks</h2>
+                <p>Generative AI systems, such as neural networks, work by learning patterns from large datasets and then using that knowledge to generate new, original content. The key components are the neural network architecture, which is inspired by the structure of the human brain, and the training process that allows the system to learn representations and relationships within the data. Through this training, the neural network develops the ability to produce novel outputs that are similar to the examples it was trained on.</p>
+                <div class="section">
+                    <h2>Feedforward Neural Networks</h2>
+                    <p>Feedforward Neural Networks are a type of artificial neural network where the information flows in one direction, from the input layer through the hidden layers and finally to the output layer. In a feedforward network, the output of each layer depends solely on the inputs it receives and not on the output of any previous layer. This allows the network to process information quickly and efficiently, making it a common architecture used in various machine learning applications.</p>
+                    <img src="./mlp-diagram.jpg" alt="Feedforward Neural Networks">
+
+                    <a href="https://learnopencv.com/understanding-feedforward-neural-networks/" class="button">Learn more</a>
+                    <h3>Perceptrons</h3>
+                    <p>Perceptrons are the basic building blocks of feedforward neural networks, using a linear classifier to make decisions based on weighted inputs.</p>
+                    <h3>Multilayer Perceptrons</h3>
+                    <p>Multilayer Perceptrons are a type of feedforward neural network that can model complex, non-linear relationships by using multiple hidden layers between the input and output layers.</p>
+                    <img src="./Single-Perceptron.png.webp" alt="Feedforward Neural Networks">
+                    <a href="https://gamedevacademy.org/perceptrons-the-first-neural-networks/" class="button">Learn more</a>
+                </div>
+    
+                <div class="section">
+                    <h2>Convolutional Neural Networks</h2>
+                    <p>Convolutional Neural Networks (CNNs) are a type of artificial neural network widely used in machine learning, particularly for image recognition and classification tasks. CNNs use a specialized architecture that includes convolutional layers, which apply a set of learnable filters to the input image, extracting relevant features. This allows CNNs to effectively capture spatial and local dependencies in the data, making them highly effective for processing and understanding visual information.</p>
+                  
+
+                    <h3>Convolution Layers</h3>
+                    <p>Convolution layers are a key component of convolutional neural networks that apply a mathematical operation called convolution to extract spatial features from input data, such as images.</p>
+                    <img src="./Convolution Layers.jpg" alt="Convolutional Neural Networks">
+                    <a href="https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53" class="button">Learn more</a>
+                    <h3>Pooling Layers</h3>
+                    <p>Pooling layers in convolutional neural networks reduce the spatial dimensions of feature maps by aggregating local information, providing a form of translation-invariant feature extraction.</p>
+                    <img src="./Pooling Layers.png" alt="Convolutional Neural Networks">
+                    <a href="https://towardsai.net/p/l/introduction-to-pooling-layers-in-cnn" class="button">Learn more</a>
+
+                </div>
+    
+                <div class="section">
+                    <h2>Recurrent Neural Networks</h2>
+                    <p>Recurrent Neural Networks (RNNs) are a type of artificial neural network used in generative AI systems. RNNs are designed to process sequential data, such as text or speech, by maintaining an internal state that allows them to use previous inputs to inform the current output. This enables RNNs to generate new content that is coherent and contextually relevant, as they can draw upon their learned patterns and relationships from the training data. The recurrent connections in the network architecture allow information to persist and flow through the network, giving RNNs powerful capabilities for tasks like language modeling, machine translation, and speech recognition.</p>
+                    <h3>Long Short-Term Memory (LSTM)</h3>
+                    <p>Long Short-Term Memory (LSTM) is a type of recurrent neural network that is designed to overcome the vanishing gradient problem, allowing it to learn long-term dependencies in sequence data more effectively than traditional recurrent neural networks.</p>
+                   
+                    <img src="./Long Short-Term Memory (LSTM).png" alt="Recurrent Neural Networks">
+                    <a href="https://towardsdatascience.com/lstm-recurrent-neural-networks-how-to-teach-a-network-to-remember-the-past-55e54c2ff22e" class="button">Learn more</a>
+                    <h3>Gated Recurrent Units (GRU)</h3>
+                    <p>Gated Recurrent Units (GRU) are a type of recurrent neural network that uses a simplified gating mechanism compared to Long Short-Term Memory (LSTM) models, making them computationally less complex while still able to capture long-term dependencies in sequential data.</p>
+                    <img class="bg-light p-1" src="./Gated Recurrent Units (GRU).png" alt="Gated Recurrent Units">
+
+                    <a href="https://medium.com/@anishnama20/understanding-gated-recurrent-unit-gru-in-deep-learning-2e54923f3e2" class="button" style="margin: 20px;">Learn more</a>
+                </div>
+            </div>
+        </main>
+
+
+
+
+        <footer class="modal-footer footer ">
+            <div class="section flex-wrap"><div>
+                  <h3>Address</h3>
+                <p>26 Federal Plaza 23rd floor<br>
+                New York, NY 10278<br>
+                USA</p>
+            </div>
+            </div>
+            
+            <div class="section">
+                <h3>Contact</h3>
+                <p>Email: <a href="mailto:info@example.com">info@example.com</a><br>
+                Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+            </div>
+            <div class="section">
+                <h3>Follow Us</h3>
+                <ul class="social-media-list ">
+                    <li><a class="social_media_icons shadow_Muyin1" href="https://www.facebook.com" target="_blank"><img src="../Imagines/fb.svg" alt="facebook"></a></li>
+                    <li><a class="social_media_icons shadow_Muyin1" href="https://www.twitter.com" target="_blank"><img src="../Imagines/twitter.svg" alt="twitter"></a></li>
+                    <li><a class="social_media_icons shadow_Muyin1" href="https://www.instagram.com" target="_blank"><img src="../Imagines/instagram.svg" alt="instagram"></a></li>
+                    <li><a class="social_media_icons shadow_Muyin1" href="https://www.linkedin.com" target="_blank"><img src="../Imagines/linkedin.svg" alt="linkedin"></a></li>
+                </ul>
+            </div>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+    
+    
+    
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

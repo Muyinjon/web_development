@@ -1,0 +1,277 @@
+.logotab{padding-right: 100px;}
+.mainimg{width: 90%; margin-left: 10%; margin-right: 10%;}
+.centeredtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+
+
+.text-pop-up-top{-webkit-animation:text-pop-up-top .5s cubic-bezier(.25,.46,.45,.94) both;animation:text-pop-up-top .5s cubic-bezier(.25,.46,.45,.94) both}
+
+.hover1:hover{color:white; background-color: black;}
+
+.image-wrap {
+    width: 100%;
+    height: 50vw;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .image-wrap img {
+    width: 100%;
+    animation: move 40s ease;
+    /* Add infinite to loop. */
+    
+    -ms-animation: move 40s ease;
+    -webkit-animation: move 40s ease;
+    -0-animation: move 40s ease;
+    -moz-animation: move 40s ease;
+    position: absolute;
+  }
+  
+  @-webkit-keyframes move {
+    0% {
+      -webkit-transform-origin: bottom left;
+      -moz-transform-origin: bottom left;
+      -ms-transform-origin: bottom left;
+      -o-transform-origin: bottom left;
+      transform-origin: bottom left;
+      transform: scale(1.0);
+      -ms-transform: scale(1.0);
+      /* IE 9 */
+      
+      -webkit-transform: scale(1.0);
+      /* Safari and Chrome */
+      
+      -o-transform: scale(1.0);
+      /* Opera */
+      
+      -moz-transform: scale(1.0);
+      /* Firefox */
+    }
+    100% {
+      transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      /* IE 9 */
+      
+      -webkit-transform: scale(1.2);
+      /* Safari and Chrome */
+      
+      -o-transform: scale(1.2);
+      /* Opera */
+      
+      -moz-transform: scale(1.2);
+      /* Firefox */
+    }
+  }
+  
+  @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+  /* Base */
+  body.Muyin {
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  h1.Muyin {
+    text-align: center;
+    position: relative;
+    color: hsl(0, 0%, 68%);
+    font-weight: bold;
+    font-family: "Anonymous Pro", monospace;
+    letter-spacing: 7px;
+    overflow: hidden;
+    border-right: 2px solid hsl(0, 0%, 80%);
+    white-space: nowrap;
+    animation: typewriter 3s steps(64) 100ms 1 normal both,
+      blinkTextCursor 500ms infinite;
+
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0px;
+    }
+    to {
+      width: 80%;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: hsl(0, 0%, 80%);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+
+  .Muyin_text_title{text-shadow: 5px 5px 5px black; -webkit-text-stroke: 2px red;  ;
+  }
+  .navbar-nav > li{
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+.btn-primary{}
+.btn-primary:hover{border: dashed whitesmoke 3px;}
+
+  .footer{}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.social-media-list {
+    list-style-type: none;
+    padding: 0px;
+    display: inline-flex;
+
+}
+
+.social-media-list li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media-list a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+
+.social-media-list a:hover {
+    opacity: 70%;
+}
+.social_media_icons{height: 32px;}
+
+.shadow_Muyin:hover {
+    -webkit-filter: drop-shadow( 5px 5px 5px rgba(0, 0, 0, 0.7));
+    filter: drop-shadow( 5px 5px 5px rgba(8, 7, 7, 0.7));
+    /* Similar syntax to box-shadow */
+  }
+.shadow_Muyin1:hover {
+    -webkit-filter: drop-shadow( 3px 3px 2px rgba(255, 255, 255, 0.7));
+    filter: drop-shadow( 3px 3px 2px rgba(255, 255, 255, 0.7));
+    /* Similar syntax to box-shadow */
+  }
+  .card-img-top{height: 300px; overflow: hidden; object-fit: cover }
+
+  .container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.content {
+    flex: 1;
+    min-width: 300px;}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    border: black dashed 2px 2px 2px; 
+    border-radius: 15px;
+    box-shadow: black 5px 5px 10px;
+}
+.card h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.card h2 span {
+    background-color: #1e3a5f;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+.number {
+    background-color: #1e3a5f;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+.image {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;}
+    .footer {
+        background-color: #000000;
+        color: white;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .footer .section {
+        flex: 1;
+        margin: 0 20px;
+        min-width: 200px;
+    }
+    .footer h3 {
+        margin-top: 0;
+    }
+    .footer a {
+        color: #1e90ff;
+        text-decoration: none;
+    }
+    .footer a:hover {
+        text-decoration: underline;
+    }
+    .social-media {
+        display: flex;
+        gap: 10px;
+    }
+    .social-media a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.5em;}
+
+        table{border: white dashed 2px; padding: 5px; margin-bottom: 20px;}
+        th{border: white dashed 2px; padding: 5px;}
+        tr{border: whitesmoke dashed 2px; padding: 5px;}
+        td{border: whitesmoke dashed 2px; padding: 5px; }
+        
