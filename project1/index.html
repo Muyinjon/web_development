@@ -29,44 +29,54 @@
     
 </section>
 
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-lg-top sticky-md-top sticky-top">    
-        <div class="justify-content-between m-auto">
-            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav me-auto mt-0 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./Machine_Learning/Machine_learning.html">Machine Learning</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./Neural_Networks/Neural_networks.html">Neural Networks</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./403.html">Deep Learning</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./403.html">Natural Language Processing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./403.html">Computer Vision</a>
-                    </li>
-                </ul>
-            </div>
+<header
+    class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top w-auto"
+>
+    <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-0 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Machine_Learning/Machine_learning.html">Machine Learning</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Neural_Networks/Neural_networks.html">Neural Networks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./403.html">Deep Learning</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./403.html">Natural Language Processing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./403.html">Computer Vision</a>
+                </li>
+            </ul>
         </div>
-        <br>
-    </nav>
+    </div>
 </header>
-    
+
+
+
 <!--cards-->
 <div class="m-1 text-center p-1 "><h1 class="text-capitalize card-title Muyin_text_title"> How does Artificial Intelligence actually Work?</h1></div>
 
 <div class="card-group mt-4 m-5 " style="padding: right 10px; " >
-    <div class="card">
+    <div class="card rounded-1 mincard">
         <img
             class="card-img-top"
             src="./Imagines/robot1.jpg"
@@ -77,18 +87,19 @@
             Generative AI systems work by using machine learning models, typically neural networks, that are trained on large datasets. These models learn to capture the underlying patterns and distributions within the data, allowing them to generate new, realistic-looking content that is similar to the training data. The training process involves feeding the model a vast amount of data, such as text, images, or audio. The model then learns to recognize the statistical relationships and structures within that data.
         </div>
     </div>
-    <div class="card">
+    <div class="card rounded-1 mincard">
         <img
             class="card-img-top"
             src="./Imagines/VRman.jpg"
             alt="Card image cap"
+            style="object-position:bottom; object-fit:cover;"
         />
         <div class="card-body">
             <h4 class="card-title">Neural Networks </h4>
             <p class="card-text">Generative AI systems, such as neural networks, work by learning patterns from large datasets and then using that knowledge to generate new, original content. The key components are the neural network architecture, which is inspired by the structure of the human brain, and the training process that allows the system to learn representations and relationships within the data. Through this training, the neural network develops the ability to produce novel outputs that are similar to the examples it was trained on.            </p>
         </div>
     </div>
-    <div class="card">
+    <div class="card rounded-1 mincard">
         <img
             class="card-img-top"
             src="./Imagines/girlflower.jpg"
@@ -96,12 +107,10 @@
         />
         <div class="card-body">
             <h4 class="card-title">Deep Learning </h4>
-            <p class="card-text">Deep learning is a type of machine learning that uses artificial neural networks to process and analyze large amounts of data. The neural networks are designed to mimic the structure and function of the human brain, with multiple layers that can learn to recognize patterns and features in the data. The key aspects of how deep learning works are: 1) The neural networks are composed of interconnected nodes, similar to neurons in the brain, that can "learn" from the input data.
-
-            </p>
+            <p class="card-text">Deep learning is a type of machine learning that uses artificial neural networks to process and analyze large amounts of data. The neural networks are designed to mimic the structure and function of the human brain, with multiple layers that can learn to recognize patterns and features in the data. The key aspects of how deep learning works are: 1) The neural networks are composed of interconnected nodes, similar to neurons in the brain, that can "learn" from the input data. 2) The neural networks can learn to recognize patterns and relationships in the data.</p>
         </div>
     </div>
-    <div class="card">
+    <div class="card rounded-1 mincard">
         <img
             class="card-img-top"
             src="./Imagines/ai1.jpg"
@@ -120,20 +129,20 @@
 <section class="container">
     <div class="p-1">
       <h1 class="p-1">What is Machine Learning?</h1>
-      <div class="row justify-content-center align-items-center g-2 rounded-1">
-        <div class="col border border-black rounded-1 shadow_Muyin card">
+      <div class="row justify-content-center align-items-center g-2 rounded-1" >
+        <div class="col border border-black rounded-1 shadow_Muyin card" style="height: 100%; min-height: 170px;">
           <div>
             <h2>Algorithms & Data</h2>
             <p>Machine learning utilizes statistical algorithms to analyze data and identify patterns, allowing systems to learn and improve without explicit programming. &nbsp; ...</p>
           </div>
         </div>
-        <div class="col border border-black rounded-1 shadow_Muyin card">
+        <div class="col border border-black rounded-1 shadow_Muyin card" style="height: 100%; min-height: 170px;">
           <div>
             <h2>Predictive Power</h2>
             <p>By uncovering insights in data, machine learning enables systems to make accurate predictions and decisions, revolutionizing various industries.            </p>
           </div>
         </div>
-        <div class="col border border-black rounded-1 shadow_Muyin card">
+        <div class="col border border-black rounded-1 shadow_Muyin card" style="height: 100%; min-height: 170px;">
           <div>
             <h2>Continuous Learning</h2>
             <p>As more data becomes available, machine learning models can continuously adapt and enhance their capabilities, driving ongoing innovation.                  </p>
@@ -144,7 +153,7 @@
   </section>
 
   <div class="container">
-    <h1>Natural Language Processing: Understanding Human Language</h1>
+    <h1 class="text-center p-1" style="margin-bottom: 20px; margin-right: auto; margin-left: auto;">Natural Language Processing: Understanding Human Language</h1>
     <div class="grid">
         <div class="card shadow_Muyin">
             <h2><span>1</span>Text Analysis</h2>
@@ -190,9 +199,9 @@
             </div>
         </div>
     </div>
-    <div class="image">
-        <img src="./Imagines/VRman.jpg" alt="Hidden Layer Diagram">
-    </div>
+    <aside class="image flex-wrap col-2">
+        <img src="./Imagines/VRman.jpg" alt="Hidden Layer Diagram" style="max-height: 600px;">
+    </aside>
 </div>
 <div style="display: block; text-align: center; justify-content: center; margin: auto;">
     <h2>General AI Statistics</h2>
