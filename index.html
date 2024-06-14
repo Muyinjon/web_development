@@ -1,58 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muyinjon Turobov</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <span class="darkmode_button">
-        <div class="checkbox-wrapper-54">
-            <label class="switch">
-              <input type="checkbox" id="darkModeCheckbox" onclick="toggleDarkMode()">
-              <span class="slider">
-            </label>
-          </div>
-    </span>
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <title>Muyinjon Turobov</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
 
+        <!-- Bootstrap CSS v5.2.1 -->
+         <link rel="stylesheet" href="style.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        
+    </head>
 
-<h1 class="name">Muyinjon Turobov </h1>
-<div class="email">
-    <a href="mailto:ceoturobov@gmail.com">Email Me at: CeoTurobov</a>
-</div>
-<h2>Class/Lab Activity</h2>
-<ul>
-<li><a href="day1_intro/lab1.html" target="_blank" rel="noopener noreferrer">Lab 1: Introduction to HTML </a>    </li>
-<li><a href="day2_css_table\day2.html" target="_blank" rel="noopener noreferrer"> Lab 2: Introduction to HTML</a></li>
-<li><a href="day3_imagine_layout/day3.html" target="_blank" rel="noopener noreferrer"> Lab 3: Imagines and Card</a> </li>
-<li><a href="./day4_navigation_form/day4.html" target="_blank" rel="noopener noreferrer"> Lab 4: Navigation and Form</a> </li>
-<li><a href="./day5_6_bootstrap/day5_6bootstrap.html" target="_blank" rel="noopener noreferrer"> Lab 5/6: Bootstrap</a> </li>
-<li><a href="./lab7_intro_js/lab7.html" target="_blank" rel="noopener noreferrer"> Lab 7: Introduction to JavaScript</a> </li>
-<li><a href="./Lab8/lab8.html" target="_blank" rel="noopener noreferrer"> Lab 8: Flow Control</a> </li>
+    <body>
 
-<h2>Projects</h2>
-<ul>
-  <li>
-    <a href="./project1/index.html" target="_blank" rel="noopener noreferrer">Project 1: Informational Website</a>
-  </li>
+    
+    
+    <h1 class="text-center p-2 text-capitalize bg-gradient text-bg-danger ">Muyinjon Turobov </h1>
+    <div class="text-center">
+        <a href="mailto:ceoturobov@gmail.com">Email Me at: CeoTurobov</a>
+    </div>
+    <div class="m-2 text-capitalize">
+ <h2>Class/Lab Activity</h2>
+    <ul>
+    <li class=""><a href="day1_intro/lab1.html" target="_blank" rel="noopener noreferrer">Lab 1: Introduction to HTML </a>    </li>
+    <li><a href="day2_css_table\day2.html" target="_blank" rel="noopener noreferrer"> Lab 2: Introduction to HTML</a></li>
+    <li><a href="day3_imagine_layout/day3.html" target="_blank" rel="noopener noreferrer"> Lab 3: Imagines and Card</a> </li>
+    <li><a href="./day4_navigation_form/day4.html" target="_blank" rel="noopener noreferrer"> Lab 4: Navigation and Form</a> </li>
+    <li><a href="./day5_6_bootstrap/day5_6bootstrap.html" target="_blank" rel="noopener noreferrer"> Lab 5/6: Bootstrap</a> </li>
+    <li><a href="./lab7_intro_js/lab7.html" target="_blank" rel="noopener noreferrer"> Lab 7: Introduction to JavaScript</a> </li>
+    <li><a href="./Lab8/lab8.html" target="_blank" rel="noopener noreferrer"> Lab 8: Flow Control</a> </li>
+    <li><a href="./Lab9/lab9.html" target="_blank" rel="noopener noreferrer"> Lab 9: Loops and exercise</a></li>
 </ul>
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <a href="./project1/index.html" target="_blank" rel="noopener noreferrer">Project 1: Informational Website</a>
+      </li>
+    </ul>
 
+    </div>
+   
+    
+    
 
-</ul>
-<script>
-    function toggleDarkMode() {
-      const checkbox = document.getElementById('darkModeCheckbox');
-      const body = document.body;
+    <script>
+        function toggleDarkMode() {
+          const checkbox = document.getElementById('darkModeCheckbox');
+          const body = document.body;
+    
+          if (checkbox.checked) {
+            body.style.backgroundColor = 'black';
+            body.style.color = 'white';
+          } else {
+            body.style.backgroundColor = 'white';
+            body.style.color = 'black';
+          }
+        }
+    </script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
 
-      if (checkbox.checked) {
-        body.style.backgroundColor = 'black';
-        body.style.color = 'white';
-      } else {
-        body.style.backgroundColor = 'white';
-        body.style.color = 'black';
-      }
-    }
-</script>
-</body>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>

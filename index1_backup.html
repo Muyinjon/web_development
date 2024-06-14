@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muyinjon Turobov</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body>
+    <span class="darkmode_button">
+        <div class="checkbox-wrapper-54">
+            <label class="switch">
+              <input type="checkbox" id="darkModeCheckbox" onclick="toggleDarkMode()">
+              <span class="slider">
+            </label>
+          </div>
+    </span>
+
+
+<h1 class="name">Muyinjon Turobov </h1>
+<div class="email">
+    <a href="mailto:ceoturobov@gmail.com">Email Me at: CeoTurobov</a>
+</div>
+<h2>Class/Lab Activity</h2>
+<ul>
+<li><a href="day1_intro/lab1.html" target="_blank" rel="noopener noreferrer">Lab 1: Introduction to HTML </a>    </li>
+<li><a href="day2_css_table\day2.html" target="_blank" rel="noopener noreferrer"> Lab 2: Introduction to HTML</a></li>
+<li><a href="day3_imagine_layout/day3.html" target="_blank" rel="noopener noreferrer"> Lab 3: Imagines and Card</a> </li>
+<li><a href="./day4_navigation_form/day4.html" target="_blank" rel="noopener noreferrer"> Lab 4: Navigation and Form</a> </li>
+<li><a href="./day5_6_bootstrap/day5_6bootstrap.html" target="_blank" rel="noopener noreferrer"> Lab 5/6: Bootstrap</a> </li>
+<li><a href="./lab7_intro_js/lab7.html" target="_blank" rel="noopener noreferrer"> Lab 7: Introduction to JavaScript</a> </li>
+<li><a href="./Lab8/lab8.html" target="_blank" rel="noopener noreferrer"> Lab 8: Flow Control</a> </li>
+<li><a href="./Lab9/lab9.html" target="_blank" rel="noopener noreferrer"> Lab 9: Loops and exercise</a></li>
+
+<h2>Projects</h2>
+<ul>
+  <li>
+    <a href="./project1/index.html" target="_blank" rel="noopener noreferrer">Project 1: Informational Website</a>
+  </li>
+</ul>
+
+
+</ul>
+<script>
+    function toggleDarkMode() {
+      const checkbox = document.getElementById('darkModeCheckbox');
+      const body = document.body;
+
+      if (checkbox.checked) {
+        body.style.backgroundColor = 'black';
+        body.style.color = 'white';
+      } else {
+        body.style.backgroundColor = 'white';
+        body.style.color = 'black';
+      }
+    }
+</script>
+</body>
+</html>
