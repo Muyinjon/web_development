@@ -21,7 +21,6 @@
         <style>
             body { display:block;
                 line-height: 1.6;
-                margin: 20px;
                 justify-content: space-around;
                 text-align: center;
                 justify-content: center;
@@ -36,7 +35,6 @@
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
-                width: 50%;
                 justify-content: center;
                 padding-top: 20px;
                 padding-bottom: 20px;
@@ -62,9 +60,7 @@
         </style>
     </head>
 
-    <body>
-        <header>
-            <nav
+    <body> <nav
             class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top w-auto">    
             <div class="container">
                 <a class="navbar-brand logotab" href="#"><img src="" alt=""></a>
@@ -106,58 +102,97 @@
             </div>
             <br> 
         </nav>
+        <header>
+           
         </header>
 
+        <div class="session d-md-flexwrap row text-center justify-content-center">
+            <h1 >Neural Networks</h1>
+           
+            <div class="col-5"><h3>What is Neural Networks?</h3>
+            <p>Generative AI systems, such as neural networks, work by learning patterns from large datasets and then using that knowledge to generate new, original content. The key components are the neural network architecture, which is inspired by the structure of the human brain, and the training process that allows the system to learn representations and relationships within the data. Through this training, the neural network develops the ability to produce novel outputs that are similar to the examples it was trained on.</p>
 
+            </div>
+            
+            <div class="col-5">            <iframe width="560" height="315" src="https://www.youtube.com/embed/dPWYUELwIdM?si=L0Tx-wnLREHEZ8qr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </div>
+            <hr>
+        </div>
+        <main class="m-5 minwidth">
+            
+            <div class="section session justify-content-center">
+                <h2>Feedforward Neural Networks</h2>
 
-        <main class="m-5">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/dPWYUELwIdM?si=L0Tx-wnLREHEZ8qr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
-            <div class="section">
-                <h2>Neural Networks</h2>
-                <p>Generative AI systems, such as neural networks, work by learning patterns from large datasets and then using that knowledge to generate new, original content. The key components are the neural network architecture, which is inspired by the structure of the human brain, and the training process that allows the system to learn representations and relationships within the data. Through this training, the neural network develops the ability to produce novel outputs that are similar to the examples it was trained on.</p>
-                <div class="section">
-                    <h2>Feedforward Neural Networks</h2>
+                <div class="session d-md-flexwrap row text-center justify-content-center">
+                    <div class="d-block w-50 col-5">
+                    <img src="./mlp-diagram.jpg" alt="Multilayer Perceptron"> <p>Multilayer Perceptron</p>
+                    <img src="./Single-Perceptron.png.webp" alt="Single Perceptron"><p>Single Perceptron</p>
+
+                    </div>
+
+                    <div class="d-block w-50 col-5">
+                    <h3>What is Feedforward Neural Networks?</h3>
                     <p>Feedforward Neural Networks are a type of artificial neural network where the information flows in one direction, from the input layer through the hidden layers and finally to the output layer. In a feedforward network, the output of each layer depends solely on the inputs it receives and not on the output of any previous layer. This allows the network to process information quickly and efficiently, making it a common architecture used in various machine learning applications.</p>
-                    <img src="./mlp-diagram.jpg" alt="Feedforward Neural Networks">
-
-                    <a href="https://learnopencv.com/understanding-feedforward-neural-networks/" class="button">Learn more</a>
+                    <a href="https://learnopencv.com/understanding-feedforward-neural-networks/" class="button btn btn-info m-2">Learn more</a>
+                    <hr>
                     <h3>Perceptrons</h3>
                     <p>Perceptrons are the basic building blocks of feedforward neural networks, using a linear classifier to make decisions based on weighted inputs.</p>
+                    <hr>
                     <h3>Multilayer Perceptrons</h3>
                     <p>Multilayer Perceptrons are a type of feedforward neural network that can model complex, non-linear relationships by using multiple hidden layers between the input and output layers.</p>
-                    <img src="./Single-Perceptron.png.webp" alt="Feedforward Neural Networks">
-                    <a href="https://gamedevacademy.org/perceptrons-the-first-neural-networks/" class="button">Learn more</a>
-                </div>
-    
-                <div class="section">
-                    <h2>Convolutional Neural Networks</h2>
-                    <p>Convolutional Neural Networks (CNNs) are a type of artificial neural network widely used in machine learning, particularly for image recognition and classification tasks. CNNs use a specialized architecture that includes convolutional layers, which apply a set of learnable filters to the input image, extracting relevant features. This allows CNNs to effectively capture spatial and local dependencies in the data, making them highly effective for processing and understanding visual information.</p>
-                  
+                    <a href="https://gamedevacademy.org/perceptrons-the-first-neural-networks/" class="button btn btn-info m-2">Learn more</a>
+                    </div>
+                   
 
+                </div>
+                <hr>                    <h2>Convolutional Neural Networks</h2>
+
+                <div class="session d-md-flexwrap row text-center justify-content-center">
+                    <div class="section col-md-5">
+                        <h3>What is Convolutional Neural Networks?</h1>
+                    <p>Convolutional Neural Networks (CNNs) are a type of artificial neural network widely used in machine learning, particularly for image recognition and classification tasks. CNNs use a specialized architecture that includes convolutional layers, which apply a set of learnable filters to the input image, extracting relevant features. This allows CNNs to effectively capture spatial and local dependencies in the data, making them highly effective for processing and understanding visual information.</p>
+                  <hr>
                     <h3>Convolution Layers</h3>
                     <p>Convolution layers are a key component of convolutional neural networks that apply a mathematical operation called convolution to extract spatial features from input data, such as images.</p>
-                    <img src="./Convolution Layers.jpg" alt="Convolutional Neural Networks">
                     <a href="https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53" class="button">Learn more</a>
+                    <hr>
                     <h3>Pooling Layers</h3>
                     <p>Pooling layers in convolutional neural networks reduce the spatial dimensions of feature maps by aggregating local information, providing a form of translation-invariant feature extraction.</p>
-                    <img src="./Pooling Layers.png" alt="Convolutional Neural Networks">
                     <a href="https://towardsai.net/p/l/introduction-to-pooling-layers-in-cnn" class="button">Learn more</a>
+                    </div>
 
+                    <div class="section col-md-5">
+                    <img src="./Pooling Layers.png" alt="Pooling Layers"><p>Pooling layers</p>
+                    <img src="./Convolution Layers.jpg" alt="Convolutional Neural Networks"><p>Convolutional Neural Networks</p>
+
+                    </div>
+
+                    
+                
                 </div>
-    
-                <div class="section">
-                    <h2>Recurrent Neural Networks</h2>
-                    <p>Recurrent Neural Networks (RNNs) are a type of artificial neural network used in generative AI systems. RNNs are designed to process sequential data, such as text or speech, by maintaining an internal state that allows them to use previous inputs to inform the current output. This enables RNNs to generate new content that is coherent and contextually relevant, as they can draw upon their learned patterns and relationships from the training data. The recurrent connections in the network architecture allow information to persist and flow through the network, giving RNNs powerful capabilities for tasks like language modeling, machine translation, and speech recognition.</p>
-                    <h3>Long Short-Term Memory (LSTM)</h3>
-                    <p>Long Short-Term Memory (LSTM) is a type of recurrent neural network that is designed to overcome the vanishing gradient problem, allowing it to learn long-term dependencies in sequence data more effectively than traditional recurrent neural networks.</p>
-                   
-                    <img src="./Long Short-Term Memory (LSTM).png" alt="Recurrent Neural Networks">
-                    <a href="https://towardsdatascience.com/lstm-recurrent-neural-networks-how-to-teach-a-network-to-remember-the-past-55e54c2ff22e" class="button">Learn more</a>
-                    <h3>Gated Recurrent Units (GRU)</h3>
-                    <p>Gated Recurrent Units (GRU) are a type of recurrent neural network that uses a simplified gating mechanism compared to Long Short-Term Memory (LSTM) models, making them computationally less complex while still able to capture long-term dependencies in sequential data.</p>
-                    <img class="bg-light p-1" src="./Gated Recurrent Units (GRU).png" alt="Gated Recurrent Units">
+                <hr>
+                <div class="session d-md-flexwrap row text-center justify-content-center">
 
-                    <a href="https://medium.com/@anishnama20/understanding-gated-recurrent-unit-gru-in-deep-learning-2e54923f3e2" class="button" style="margin: 20px;">Learn more</a>
+                        <h2>Recurrent Neural Networks</h2>
+
+                    <div class="section col-md-5">
+                        <h1>what is recurrent neural networks?</h1>
+                        <p>Recurrent Neural Networks (RNNs) are a type of artificial neural network used in generative AI systems. RNNs are designed to process sequential data, such as text or speech, by maintaining an internal state that allows them to use previous inputs to inform the current output. This enables RNNs to generate new content that is coherent and contextually relevant, as they can draw upon their learned patterns and relationships from the training data. The recurrent connections in the network architecture allow information to persist and flow through the network, giving RNNs powerful capabilities for tasks like language modeling, machine translation, and speech recognition.</p>
+                        <hr>
+                        <h3>Long Short-Term Memory (LSTM)</h3>
+                        <p>Long Short-Term Memory (LSTM) is a type of recurrent neural network that is designed to overcome the vanishing gradient problem, allowing it to learn long-term dependencies in sequence data more effectively than traditional recurrent neural networks.</p>
+                    
+                        <a href="https://towardsdatascience.com/lstm-recurrent-neural-networks-how-to-teach-a-network-to-remember-the-past-55e54c2ff22e" class="button">Learn more</a>
+                        <hr>
+                        <h3>Gated Recurrent Units (GRU)</h3>
+                        <p>Gated Recurrent Units (GRU) are a type of recurrent neural network that uses a simplified gating mechanism compared to Long Short-Term Memory (LSTM) models, making them computationally less complex while still able to capture long-term dependencies in sequential data.</p>
+
+                        <a href="https://medium.com/@anishnama20/understanding-gated-recurrent-unit-gru-in-deep-learning-2e54923f3e2" class="button" style="margin: 20px;">Learn more</a>
+                    </div>
+                    <div class="section col-md-5">
+                        <img src="./Long Short-Term Memory (LSTM).png" alt="Recurrent Neural Networks"><p>Recurrent Neural Networks</p>
+                        <img class="bg-light p-1" src="./Gated Recurrent Units (GRU).png" alt="Gated Recurrent Units"><p>Gated Recurrent Units</p>
+
+                    </div>
                 </div>
             </div>
         </main>
@@ -165,8 +200,9 @@
 
 
 
-        <footer class="modal-footer footer ">
-            <div class="section flex-wrap"><div>
+
+        <footer class="modal-footer footer justify-content-center row" style="">
+            <div class="section flex-wrap col-md-2 text-center"><div>
                   <h3>Address</h3>
                 <p>26 Federal Plaza 23rd floor<br>
                 New York, NY 10278<br>
@@ -174,12 +210,12 @@
             </div>
             </div>
             
-            <div class="section">
+            <div class="section col-md-2 text-center">
                 <h3>Contact</h3>
                 <p>Email: <a href="mailto:info@example.com">info@example.com</a><br>
                 Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
             </div>
-            <div class="section">
+            <div class="section col-md-2 text-center">
                 <h3>Follow Us</h3>
                 <ul class="social-media-list ">
                     <li><a class="social_media_icons shadow_Muyin1" href="https://www.facebook.com" target="_blank"><img src="../Imagines/fb.svg" alt="facebook"></a></li>

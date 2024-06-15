@@ -123,11 +123,10 @@ h1.Muyin {
 .btn-primary{}
 .btn-primary:hover{border: dashed whitesmoke 3px;}
 
-.footer{}
 
 .footer-container {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: auto;
+  margin: auto;
 }
 
 .social-media-list {
@@ -242,17 +241,14 @@ max-width: 100%;
 height: auto;
 border-radius: 10px;}
 .footer {
-  background-color: #000000;
   color: white;
-  padding: 20px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
 }
 .footer .section {
   flex: 1;
-  margin: 0 20px;
   min-width: 200px;
 }
 .footer h3 {
@@ -280,3 +276,10 @@ tr{border: whitesmoke dashed 2px; padding: 5px;}
 td{border: whitesmoke dashed 2px; padding: 5px; }
 
 .mincard{min-width: 350px;}
+.SupervisedLearningSession{width: 80%; margin-bottom: 20px; margin:auto} 
+.minwidth{min-width: 400px;}
+.UnsupervisedLearningSession{width: 80%; margin-bottom: 20px; margin:auto}
+.ReinforcementLearningsession{width: 80%; margin-bottom: 20px; margin:auto}
+.session{width: 80%; margin-bottom: 20px; margin:auto}
+.row {
+  --bs-gutter-x: 0 !important;}

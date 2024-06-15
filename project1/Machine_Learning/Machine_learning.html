@@ -21,7 +21,6 @@
         <style>
             body { display:block;
                 line-height: 1.6;
-                margin: 20px;
                 justify-content: space-around;
                 text-align: center;
                 justify-content: center;
@@ -36,7 +35,6 @@
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
-                width: 50%;
                 justify-content: center;
                 padding-top: 20px;
                 padding-bottom: 20px;
@@ -63,8 +61,7 @@
     </head>
 
     <body>
-        <header>
-            <nav
+        <nav
             class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top w-auto">    
             <div class="container">
                 <a class="navbar-brand logotab" href="#"><img src="" alt=""></a>
@@ -106,55 +103,105 @@
             </div>
             <br> 
         </nav>
+        <header>
+            
         </header>
 
 
 
 
         <main class="m-5 ">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/i_LwzRVP7bg?si=9yOegYLho65Ibv9-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <div class="section">
-                <h2>Supervised Learning</h2>
-                <p>Supervised learning is a machine learning technique where an algorithm is trained on labeled data, meaning the input data has corresponding correct output labels. The algorithm learns to map the input data to the output labels, and can then use this learned model to make predictions on new, unseen data. The key steps are:</p>
-                <ol class="card d-block text-center m-auto">
-                    <li>Collecting labeled training data</li>
-                    <li>Choosing an appropriate machine learning model</li>
-                    <li>Training the model on the data</li>
-                    <li>Evaluating the model's performance and iterating as needed</li>
-                </ol>
-                <p>Supervised learning powers many real-world AI applications like image classification, spam filtering, and predictive analytics.</p>
-                <a href="https://medium.com/@jorgesleonel/supervised-learning-c16823b00c13" class="button btn btn-info ">Learn more</a><br>
-                <img src="./1_589X2eXJJkatGRG-z-s_oA.webp" alt="Supervised Learning">
-                <h3>Classification</h3>
-                <p>Classification is a supervised machine learning technique that assigns input data to specific categories or classes based on patterns in the training data.</p>
-                <h3>Regression</h3>
-                <p>Regression is a machine learning technique that predicts a continuous numerical output, unlike Classification which predicts discrete categorical labels.</p>
-                <a href="https://medium.com/@jorgesleonel/supervised-learning-c16823b00c13" class="button">Learn more difference</a>
-            </div>
-        
-            <div class="section">
-                <h2>Unsupervised Learning</h2>
-                <p>Generative AI models, like those used in unsupervised learning, work by learning the underlying patterns and distributions in data without being explicitly programmed. They can then generate new, realistic-looking data that is similar to the training data. This is done by training the model on a large dataset, allowing it to learn the complex relationships and structures within the data. The model can then use this learned knowledge to generate new, synthetic samples that capture the essential characteristics of the original data. This makes generative AI a powerful tool for tasks like image synthesis, text generation, and audio creation.</p>
-                <a href="https://www.altexsoft.com/blog/unsupervised-machine-learning/" class="button">Learn more</a>
-                <img src="./946603bf-5c38-42ac-b033-0ae7a455cae8.jpg" alt="Unsupervised Learning">
-                <h3>Clustering</h3>
-                <p>Clustering is an unsupervised machine learning technique that groups similar data points together without any pre-defined labels or categories.</p>
-                <h3>Dimensionality Reduction</h3>
-                <p>Dimensionality Reduction is a technique in machine learning that aims to identify a reduced set of features or dimensions that can effectively represent the original high-dimensional data without significant loss of information.</p>
-            </div>
-        
-            <div class="section">
-                <h2>Reinforcement Learning</h2>
-                <p>Generative AI systems work by using machine learning techniques, particularly reinforcement learning, to generate new content such as images, text, or audio. In reinforcement learning, the AI model learns by receiving rewards or penalties based on the quality of the outputs it generates, allowing it to iteratively improve its ability to create realistic and coherent content. The model is trained on large datasets, and through trial-and-error, it learns to produce outputs that maximize the desired characteristics, resulting in the generation of novel and compelling content.</p>
-                <a href="https://www.v7labs.com/blog/deep-reinforcement-learning-guide" class="button">Learn more</a>
-                <img src="./627d1233a23dd7e4aaffc27f_613672382c1897f25bccae05_reinforcement-learning-cycle-hero.png" alt="Reinforcement Learning">
-                <h3>Markov Decision Processes</h3>
-                <p>Markov Decision Processes are a mathematical framework for modeling sequential decision-making problems under uncertainty, where the future state depends only on the current state and action, not on the past.</p>
-                <h3>Q-Learning</h3>
-                <p>Q-Learning is a reinforcement learning algorithm that learns to predict the optimal actions to take in a given state by updating a "Q-value" that represents the expected future reward for each possible action.</p>
-                <a href="https://www.datacamp.com/tutorial/introduction-q-learning-beginner-tutorial" class="button " style="margin: 20px   ;">Learn more</a>
-                <img class="bg-light p-1" src="Q_Learning_Header_336c3f8177.png" alt="Q-Learning">
+            <div class="SupervisedLearningSession row justify-content-center">
 
+                <div class=" row d-flexwrap justify-content-center">
+                    <div class="col-5 minwidth" >
+                        <img src="./1_589X2eXJJkatGRG-z-s_oA.webp"  width="100%"  alt="Supervised Learning" class="img-fluid rounded">
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/i_LwzRVP7bg?si=9yOegYLho65Ibv9-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    </div>
+                    <aside class="col-sm-5 minwidth ">
+                        <h2 class="text-center">Supervised Learning</h2>
+                        <p>Supervised learning is a machine learning technique where an algorithm is trained on labeled data, meaning the input data has corresponding correct output labels. The algorithm learns to map the input data to the output labels, and can then use this learned model to make predictions on new, unseen data. The key steps are:</p>
+                        <ol class="list list-group d-block m-2 p-4" style="text-align: center;">
+                            <li class="list-group-item">Collecting labeled training data</li>
+                            <li class="list-group-item">Choosing an appropriate machine learning model</li>
+                            <li class="list-group-item">Training the model on the data</li>
+                            <li class="list-group-item">Evaluating the model's performance and iterating as needed</li>
+                        </ol>
+                        <p>Supervised learning powers many real-world AI applications like image classification, spam filtering, and predictive analytics.</p>
+                        <a href="https://medium.com/@jorgesleonel/supervised-learning-c16823b00c13" class="button btn btn-info m-1 ">Learn more</a><br>
+                        <hr>
+                        <h3>Classification</h3>
+                        <p>Classification is a supervised machine learning technique that assigns input data to specific categories or classes based on patterns in the training data.</p>
+                        <hr>
+                        <h3>Regression</h3>
+                        <p>Regression is a machine learning technique that predicts a continuous numerical output, unlike Classification which predicts discrete categorical labels.</p>
+                        <a href="https://medium.com/@jorgesleonel/supervised-learning-c16823b00c13" class="button btn btn-info m-1">Learn more difference</a>
+
+                    </aside>
+                </div>
+                
+                
+
+            </div>
+            <br>
+            <hr>
+                <div class="section">
+                    <div class="UnsupervisedLearningSession row justify-content-center">
+                    <article class="article col-sm col-5">
+                        <h2 class="text-center">Unsupervised Learning</h2>
+
+                        <div class="section">
+                            <p>Generative AI models, like those used in unsupervised learning, work by learning the underlying patterns and distributions in data without being explicitly programmed. They can then generate new, realistic-looking data that is similar to the training data. This is done by training the model on a large dataset, allowing it to learn the complex relationships and structures within the data. The model can then use this learned knowledge to generate new, synthetic samples that capture the essential characteristics of the original data. This makes generative AI a powerful tool for tasks like image synthesis, text generation, and audio creation.</p>
+                            <a href="https://www.altexsoft.com/blog/unsupervised-machine-learning/" class="button">Learn more</a>
+                            <br>
+                            <hr>
+                            <h3>Clustering</h3>
+                            <p>Clustering is an unsupervised machine learning technique that groups similar data points together without any pre-defined labels or categories.</p>
+                            <hr>
+                            <h3>Dimensionality Reduction</h3>
+                            <p>Dimensionality Reduction is a technique in machine learning that aims to identify a reduced set of features or dimensions that can effectively represent the original high-dimensional data without significant loss of information.</p>
+                        </div>
+                    </article>
+
+                    <aside class="aside minwidth col-sm col-5" style="vertical-align:middle;">
+                        <img src="./946603bf-5c38-42ac-b033-0ae7a455cae8.jpg" alt="Unsupervised Learning" height="315" width="560" class="img-fluid rounded" style="vertical-align:middle;">
+
+                    </aside>
+                    <hr>                
+                </div>
+                
+                
+                <div class="section">
+                    <div class="ReinforcementLearningsession row justify-content-center">
+                       
+                        <div class="col-sm-5">
+                            <img src="./627d1233a23dd7e4aaffc27f_613672382c1897f25bccae05_reinforcement-learning-cycle-hero.png" alt="Reinforcement Learning">
+                            <img class="bg-light p-1" src="Q_Learning_Header_336c3f8177.png" alt="Q-Learning">
+
+                        </div>
+                        <div class="col-sm-5">
+                            <h2>Reinforcement Learning</h2>
+                            <p>Generative AI systems work by using machine learning techniques, particularly reinforcement learning, to generate new content such as images, text, or audio. In reinforcement learning, the AI model learns by receiving rewards or penalties based on the quality of the outputs it generates, allowing it to iteratively improve its ability to create realistic and coherent content. The model is trained on large datasets, and through trial-and-error, it learns to produce outputs that maximize the desired characteristics, resulting in the generation of novel and compelling content.</p>
+                            <a href="https://www.v7labs.com/blog/deep-reinforcement-learning-guide" class="button">Learn more</a>
+                            <br><hr>
+                            <h3>Markov Decision Processes</h3>
+                            <p>Markov Decision Processes are a mathematical framework for modeling sequential decision-making problems under uncertainty, where the future state depends only on the current state and action, not on the past.</p>
+                            <hr>
+                            <h3>Q-Learning</h3>
+                            <p>Q-Learning is a reinforcement learning algorithm that learns to predict the optimal actions to take in a given state by updating a "Q-value" that represents the expected future reward for each possible action.</p>
+                            <a href="https://www.datacamp.com/tutorial/introduction-q-learning-beginner-tutorial" class="button " style="margin: 20px   ;">Learn more</a>
+        
+                        </div>
+
+                    </div>
+
+
+    
+
+            </div>
+           
 
         </main>
 
@@ -162,8 +209,9 @@
 
 
 
-        <footer class="modal-footer footer ">
-            <div class="section flex-wrap"><div>
+
+        <footer class="modal-footer footer justify-content-center row" style="">
+            <div class="section flex-wrap col-md-2 text-center"><div>
                   <h3>Address</h3>
                 <p>26 Federal Plaza 23rd floor<br>
                 New York, NY 10278<br>
@@ -171,12 +219,12 @@
             </div>
             </div>
             
-            <div class="section">
+            <div class="section col-md-2 text-center">
                 <h3>Contact</h3>
                 <p>Email: <a href="mailto:info@example.com">info@example.com</a><br>
                 Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
             </div>
-            <div class="section">
+            <div class="section col-md-2 text-center">
                 <h3>Follow Us</h3>
                 <ul class="social-media-list ">
                     <li><a class="social_media_icons shadow_Muyin1" href="https://www.facebook.com" target="_blank"><img src="../Imagines/fb.svg" alt="facebook"></a></li>
