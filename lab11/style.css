@@ -4,3 +4,27 @@
     font-weight: 900;
     font-style: italic;
 }
+
+.styletitle{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    color: rgb(255, 48, 186);
+}
+
+.info{
+    text-align: center;
+    background-color: brown;
+    padding: 20px;
+    margin-top: 20px;
+}
+.margininfo{
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 1px 1px 10px white;
+    border-radius: 20px;
+} 
+.to_do{
+    list-style-position: inside;}
