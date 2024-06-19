@@ -5,3 +5,88 @@
     border: solid 1px black;
     padding: 30px;
     background-color: white;}
+
+    .btnpressme{background-color: rgb(255, 0, 0); color: rgb(3, 255, 150); padding: 35px; margin: 10px; border: solid 1px white; border-radius: 10px;
+    cursor: pointer;}
+    
+    .btnpressme:hover{background-color: rgb(3, 255, 150); color: rgb(255, 0, 0); border: solid 1px white; border-radius: 10px;}
+    /* .btnpressme:hover:before{content: "touch me";}
+    .btnactive{
+        background-color: white;
+        font-size: 15px;
+    } */
+    .btnactive{
+        background-color: white;
+        font-size: 15px;
+        color:red;
+        text-decoration: dotted 2px black;
+        border: dotted 2px black;
+    }
+    #listitem li {width: 200px;
+        border: 1px solid black;
+         padding: 10px; 
+         margin: 10px; 
+         list-style-type:none; 
+        background-color: gray;
+    cursor:zoom-out; }
+#listitem li:hover{background-color:crimson; color: white;}
+
+#content{background-color: rgb(31, 90, 90);
+width: 2500px;
+padding: 20%;}
+
+.maincontainer, .gallarycontainer{width: 1000px;
+    margin: 50px auto;}
+.maincontainer{position: relative; z-index: 0;}
+
+
+
+.gallarycontainer{position: absolute;
+     z-index: 1;
+    overflow-x: scroll;
+    white-space: nowrap;
+    scroll-behavior:smooth;}
+
+
+
+.gallaryimg{display: inline;
+    width: 500px;}
+
+.btnleft, .btnright{position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.411);    
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;}
+
+.btnleft{left: 0; top: 250px;}
+
+.btnright{right: 0;top: 250px;}
+
+.gotop{width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.411);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 3;
+    cursor: pointer;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    color: white;
+    transition: ease-in-out 0.5s;
+display: none;}
+
+.gotop a{text-decoration: none;
+color: bisque;}
+
+.gotop a:hover{color: red;}
+
+.gotop:hover{color: red;
+box-shadow: 0px 0px 5px 2px red;}
