@@ -41,7 +41,7 @@ padding: 20%;}
 
 
 
-.gallarycontainer{position: absolute;
+.gallarycontainer{position: relative;
      z-index: 1;
     overflow-x: scroll;
     white-space: nowrap;
@@ -90,3 +90,48 @@ color: bisque;}
 
 .gotop:hover{color: red;
 box-shadow: 0px 0px 5px 2px red;}
+
+/* thursday, june 20
+username, #Password, submit button */
+
+
+.greeting{display: none;}
+
+#myform{background-color:rgb(32, 25, 13);
+box-shadow: 1px 1px 5px 1px rgb(255, 0, 0);
+border-radius: 10px;
+width: 600px;
+margin: 50px auto;
+padding: 30px;}
+
+.controlblock{margin: 10px;}
+
+.passwordmsg{color: red;
+opacity: .88;
+margin: 10px 0;}
+
+.passworderror{margin-top: -15px;}
+
+.sumbitbtn{background-color: red;
+color: white;
+border: none;
+padding: 10px 15px;
+cursor: pointer;
+margin-left: 10px;
+border-radius: 20px;}
+
+
+
+.sumbitbtn:hover{transform: translateY(-5px); 
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1}
+
+#passwordfield{border: 2px solid slategrey;}
+#comments{border: 2px solid slategrey;}
+.commenterror{color: red;}
+#comments{resize: none; border: #FEFEFE 2px dashed;
+     border-radius:20px;
+     padding: 10px;
+     margin: 10px;
+    box-shadow: #FEFEFE 0px 0px 5px 1px;
+text-align: center;}
+.sumbitcomment{color: #FEFEFE;}

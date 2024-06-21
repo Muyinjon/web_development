@@ -106,3 +106,96 @@ window.addEventListener("scroll",function(){
         gotop.style.display = "none"
     }
 })
+
+//Thursday, June 20
+
+// form event
+//input event
+
+const myform = document.querySelector("#myform")
+const greeting = document.querySelector(".greeting")
+const greetingname = document.querySelector(".greeting p span")
+
+myform.addEventListener("submit",function(event){
+    //prevent the deafault form submission behaviour
+    event.preventDefault()
+    //start the form validation
+    const usernameinput = document.querySelector("#username")
+    //collect the value
+    const username = usernameinput.value
+     //validation 1: make sure the user types a user before pressing the submit button
+     if(username === ""){
+        alert("Please type a username")
+        return;
+    }
+
+    //if the validation is successful, you can sumbit the data to the server
+    greetingname.innerHTML = username
+    greeting.style.display = "block"
+
+    //after the form is submitted, we want to clear the input field
+    usernameinput.value = ""})
+
+    //password validation
+    //collect form elements
+    const passwordfield = document.querySelector("#passwordfield")
+    const sumbitbtn = document.querySelector(".sumbitbtn")
+    //collect the password error message element
+    const passworderror = document.querySelector(".passworderror")
+    const passwordmsg = document.querySelector(".passwordmsg")
+    
+    //disable the submit button
+    window.addEventListener("load",function(){
+        sumbitbtn.disabled = true
+        sumbitbtn.style.backgroundColor = "gray"
+    })
+
+    //check the length of the password
+    passwordfield.addEventListener("input",function(){
+        let numberofchar = passwordfield.value.length
+        if(numberofchar<8){
+           passworderror.textContent = "Invalid password, must have at least 8 characters"
+           passworderror.style.color = "red"
+           passwordfield.style.borderColor = "solid 2px red"}
+           else{
+            passworderror.innerHTML = "&#x2713"
+            passworderror.style.color = "green"
+            passwordfield.style.border = "solid 2px green"
+            sumbitbtn.disabled = false
+            sumbitbtn.style.backgroundColor = "red"
+
+           }
+})
+
+const comments = document.querySelector("#comments")
+const commentserror = document.querySelector(".commentserror")
+const commentlength = document.querySelector(".commentlength")
+const sumbitcomment = document.querySelector(".sumbitcomment")
+
+
+comments.addEventListener("input",function(){
+    let numbercomofchar = comments.value.length
+    let leftchar = document.querySelector(".leftchar")
+    let ssumbit = document.querySelector(".ssumbit")
+    if(numbercomofchar>50){
+        commentserror.style.color = "green"
+        comments.style.border = "solid 2px green"
+        sumbitcomment.disabled = false
+        sumbitcomment.style.backgroundColor = "green"
+        commentserror.style.display = "None"
+        ssumbit.innerHTML = "Submit"
+
+    }
+    else{
+        commentserror.innerHTML = "Invalid comment, must have at least 50 characters"
+        commentserror.style.color = "red"
+        comments.style.border = "solid 2px red"
+        ssumbit.innerHTML = "Cannot Submit"
+        sumbitcomment.disabled = true
+        sumbitcomment.style.backgroundColor = "red"
+        commentserror.style.display = "block"
+
+    }
+    if(numbercomofchar>=2000){commentlength.innerHTML = "You have reached the limit"}
+    else {commentlength.innerHTML = "Characters left: " + (2000-numbercomofchar)}
+})
