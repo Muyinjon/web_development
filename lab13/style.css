@@ -1,0 +1,51 @@
+*{box-sizing: border-box;}
+.myform fieldset{width: 60%;
+margin: 20px auto;
+background-color: aliceblue;}
+
+.myform button{margin: 10px 0;}
+.controlblock{margin: 10px 0;}
+
+image{width: 100%;}
+.item1{width: 50%;
+box-shadow: 1px 1px 5px 1px gray;
+padding: 20px;
+margin: 20px;
+border-radius: 30px;}
+.item1 img{height: 80%;
+width: auto;
+margin-left: 30px;}
+.itemname{font-weight: 900;
+color: black;
+font-size: 1.3em;}
+
+.itemdiscription{font-style: italic;
+color: gray;
+font-size: 1.2em;
+margin-top: -20px;}
+
+.salesprice{color: red;
+text-decoration: underline;
+font-size: 1.3em;}
+
+.addtocart{display: block;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;}
+
+.bagcontainer{width: 80%;
+margin: 20px auto;
+background-color: lightgray;
+box-shadow: 1px 1px 5px 1px gray;
+padding: 20px;
+border-radius: 30px;
+flex-wrap: nowrap;}
+.itemimg{width: 20%;}
+.itemdescription{width: 40%;}
+.itemprice{width: 20%;}
+.totleitemprice{width: 20%;}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Temporary Storage</h1>
+    <form class="myform" action="display.html">
+        <fieldset>
+            <legend>Survey</legend>
+            <div class="controlblock">
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Type your first name">
+            </div>
+            <div class="controlblock">
+                <p>Please select you favorite web language:</p>
+                <label for="html">HTML: </label>
+                <input type="radio" name="fav_language" id="html" value="HTML">
+                <label for="css">CSS: </label>
+                <input type="radio" name="fav_language" id="css" value="CSS">
+                <label for="js">Javascript: </label>
+                <input type="radio" name="fav_language" id="js" value="JavaScript">
+            </div>
+            <div class="controlblock">
+                <input type="submit" value="Submit Surney">
+            </div>
+
+        </fieldset>
+
+    </form>
+
+    <div class="displayresult"></div>
+
+    <h1>Transfer item to the cart</h1>
+    <div class="container">
+        <section class="item1"> 
+            <img src="./03277407058-e1.jpg" alt="white" class="imgitem1">
+            <p class="itemname1">white</p>
+            <p class="itemdiscription1">white sweater</p>
+            <p><s>100</s> <b class="salesprice1">80</b></p>
+            <form class="formitem1" action="./cart.html">
+                <label for="quantityitem1">Quantity: <input type="number" name="quantity" id="quantity" max="10" min="1" class="quantityitem1"></label>
+                <input type="submit" value="Add to cart" class="addtocart">
+            </form>
+        </section>
+    </div>
+
+
+</body>
+<script src="./stroage.js"></script>
+
+</html>
