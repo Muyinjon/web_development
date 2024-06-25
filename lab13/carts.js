@@ -14,9 +14,9 @@ const itemname = sessionStorage.getItem('itemname1')
 let itemdiscription = sessionStorage.getItem('itemdiscription1')
 const imgitem = sessionStorage.getItem('imgitem1')
 //set the values
-unitprice_display.innerHTML = priceitem;
+unitprice_display.innerHTML = `$${priceitem}`;
 quantityitem_display.innerHTML = quantityitem;
-totalitemprice_display.innerHTML = totalitemprice;
+totalitemprice_display.innerHTML = `$${totalitemprice}`;
 itemname_display.innerHTML = itemname;
 itemdiscription_display.innerHTML = itemdiscription;
 imgitem_display.src = imgitem
