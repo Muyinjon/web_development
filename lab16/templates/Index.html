@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB  16</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body class="bodymain" >
+    <h1>Muyinjon Turobov</h1>
+    <h2>Todays favorite quote:</h2>
+    {%if quote1%}
+    <p>{{quote1}}</p>
+    {%else%}
+    <p>No quote posted yet</p>
+    {%endif%}
+    <h1>List of colors</h1>
+    
+    <ul>{%for c in colors%}
+        <li>{{c}}</li>
+        {% endfor %}
+    </ul>
+
+    <nav class="addquotebtn">
+        <a href="{{url_for('quotes')}}">add a quote</a>
+    </nav>
+
+    <main>
+        <div> <h2>Favorite Quote: </h2>
+        </div>
+        <!--For loop-->
+
+        {% for r in result %}
+
+        <div>
+            <h3>Quotes Author: </h3>
+            <p>{{r.author}}</p>
+        </div>  
+        
+        <div>
+            <h3>Quote: </h3>
+            <p>{{r.quote}}</p>
+        </div>
+
+        {% endfor %}
+    </main>
+
+
+
+</body>
+
+</html>

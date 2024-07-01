@@ -1,0 +1,38 @@
+body{background: yellow;}
+*{box-sizing: border-box;}
+
+.quotesform{width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin-top: 50px;
+    box-shadow: 10px 10px 5px #24242467;}
+.controlform{margin-top: 50px;}
+.controlform label{display: block; font-weight: bolder;}
+.controlform input, .controlform textarea{padding: 5px;
+                    border-radius: 2px;
+                    display: block;
+                    width: 100%;}
+.submitbtn{background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;}
+.submitbtn:hover{background-color: #083b0b;
+cursor: pointer;
+box-shadow: 0px 0px 5px 2px #242424;}
+
+/* INDEX HTML */
+.addquotebtn a{background-color: red;
+color: whitesmoke;  
+padding: 10px 15px;
+border-radius: 5px;
+margin: 5px 0px;
+}

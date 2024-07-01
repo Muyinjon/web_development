@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My quotes</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <main class="mainform">
+        <form action="/process" method="post" class="quotesform">
+                        
+            <div class="controlform">
+                <label for="inputauthor">Quote Author</label>
+                <input type="text" id="inputauthor" placeholder="Add your name..." name="author">
+            </div>
+
+            <div class="controlform">
+                <label for="quote">Quote Author</label>
+                <textarea id="quote" rows="5" placeholder="Add your quote..." name="quote"></textarea>
+            </div>
+            <div class="controlform">
+                <input type="submit" value="Submit" class="submitbtn">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
