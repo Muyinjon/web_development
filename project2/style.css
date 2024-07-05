@@ -885,9 +885,32 @@ input[type="text"] {width: 100%; border: 1px solid rgb(209, 73, 73);
 .shop-btn button{padding: 10px; color: rgb(209, 73, 73); font-size: 20px; font-weight: bolder;
   border: 1px solid rgb(209, 73, 73); border-radius: 5px; width: 95%; margin: 1% auto; display: block;}
 
-  .shop-btn button:hover{animation: flicker-full 6s alternate-reverse infinite;
-  color: rgb(209 73 74 / 85%) !important;
-  text-shadow: 1px 1px 20px #d61717;}
+.shop-btn button:hover{animation: flicker-full 6s alternate-reverse infinite;
+color: rgb(209 73 74 / 85%) !important;
+text-shadow: 1px 1px 20px #d61717;}
 
 .checkout{width: 100%;
-margin-top: 4%;}
+margin-top: 1%;}
+.Checkoutheading{margin-top: 4%;}
+.resciptcard{border: 1px solid rgb(209, 73, 73);
+  color: rgb(209, 73, 73);
+  width: 55%;
+  margin:  auto;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: start;
+  border-radius: 20px;
+}
+
+.resciptcard td{border: 1px solid rgb(209, 73, 73);
+  color: rgb(209, 73, 73);
+  padding: 1%;
+  text-align: start;
+  border-radius: 20px;
+  width: auto; margin: 1%;}
+
+.Buymore{padding: 10px; color: rgb(209, 73, 73); font-size: 20px; font-weight: bolder;
+  border: 1px solid rgb(209, 73, 73); border-radius: 5px; width: auto; margin: 1% auto; display: block;}
+.Buymore:hover{animation: flicker-full 6s alternate-reverse infinite;
+color: rgb(209 73 74 / 85%) !important;
+text-shadow: 1px 1px 20px #d61717;}

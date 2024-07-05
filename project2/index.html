@@ -20,7 +20,6 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./style.css">
-        <script src="./script.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     </head>
@@ -139,8 +138,8 @@
               <div class="card-footer">
               <span class="text-title" id="cookprice">4999.99</span>
               </div>
-              <form class="cookform" action="./cart.html">
-                <label for="cookinput" class="input-group1">Quantity: <input type="number" name="quantity" id="quantity" max="10" min="1" class="cookinput"></label>
+              <form class="cookform" action="./Shop.html">
+                <label for="cookinput" class="input-group1">Quantity: <input type="number" name="quantity" id="cookinput" max="10" min="0" class="cookinput"></label>
                 <input type="submit" class="card-button">
             </form>
             </div><div class="blob"></div></div>
@@ -155,8 +154,8 @@
                 <div class="card-footer">
                 <span class="text-title" id="Maidprice">2499.49</span>
                 </div>
-                <form class="maidform" action="./cart.html">
-                  <label for="maidinput" class=" input-group1">Quantity: <input type="number" name="quantity" id="quantity" max="10" min="1" class="maidinput"></label>
+                <form class="maidform" action="./Shop.html">
+                  <label for="maidinput" class=" input-group1">Quantity: <input type="number" name="quantity" id="maidinput" max="10" min="0" class="maidinput"></label>
                   <input type="submit" class="card-button">
               </form>
               </div><div class="blob"></div></div>
@@ -171,8 +170,8 @@
                   <div class="card-footer">
                   <span class="text-title" id="guardprice">3999.99</span>
                   </div>
-                  <form class="guardform" action="./cart.html">
-                    <label for="guradinput" class="input-group1">Quantity: <input type="number" name="quantity" id="quantity" max="10" min="1" class="guradinput"></label>
+                  <form class="guardform" action="./Shop.html">
+                    <label for="guradinput" class="input-group1">Quantity: <input type="number" name="quantity" id="guradinput" max="10" min="0" class="guradinput"></label>
                     <input type="submit" class="card-button">
                 </form>
                 </div><div class="blob"></div></div>
@@ -186,8 +185,8 @@
                     <div class="card-footer">
                     <span class="text-title" id="assistantprice">9999.99</span>
                     </div>
-                    <form class="assistantform" action="./cart.html">
-                      <label for="assistantinput" class="input-group1">Quantity: <input type="number" name="quantity" id="quantity" max="10" min="1" class="assistantinput"></label>
+                    <form class="assistantform" action="./Shop.html">
+                      <label for="assistantinput" class="input-group1">Quantity: <input type="number" name="quantity" id="assistantinput" max="10" min="0" class="assistantinput"></label>
                       <input type="submit" class="card-button">
                   </form>
                   </div><div class="blob"></div></div>
@@ -226,6 +225,8 @@
 
 
         <!-- Bootstrap JavaScript Libraries -->
+        <script src="./script.js"></script>
+
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
