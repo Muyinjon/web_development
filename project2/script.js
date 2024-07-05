@@ -1,5 +1,3 @@
-const robotImage = document.querySelector('.robot');
-
 document.addEventListener('DOMContentLoaded', function() {
     const robotImage = document.querySelector('.robot');
     
